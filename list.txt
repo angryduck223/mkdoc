@@ -4,5 +4,3 @@ m
 p
 #
 #
-"Python"
-for _ in range(10):
