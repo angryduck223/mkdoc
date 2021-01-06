@@ -1,3 +1,0 @@
-##WIN10_SETTINGS
-1. optimization
-2. build
