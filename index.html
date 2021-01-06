@@ -6,11 +6,11 @@
     <title>mkdoc</title>
 </head>
 <body>
-    <div id="topBar">
+    <div id="topbar">
         <h1><a href="index.html">Win10 Optimization</a></h1>
     </div>
     <div id="main">
-        <div id="listBar">
+        <div id="listbar">
             <ol>
                 <li><a href="1.html">One</a></li>
                 <li><a href="2.html">Two</a></li>
@@ -24,7 +24,21 @@
                 The current page is designed to share how Windows 10 works fast.
             </p>
         </div>
-        
+    </div>
+    <div id="funcbar">
+        <input type="button" value="dark" onclick="
+        var target = document.querySelector('body');
+        if(this.value==='dark'){
+            target.style.backgroundColor='black';
+            target.style.color='white';
+            this.value = 'light';
+        } else {
+            target.style.backgroundColor='antiquewhite';
+            target.style.color='black';
+            this.value = 'dark';
+            
+        }
+        ">
     </div>
     </body>
-    </html>
+    </html> 

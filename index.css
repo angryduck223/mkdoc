@@ -2,7 +2,7 @@ body {
   margin: 0px;
   background-color: antiquewhite;
 }
-#topBar h1 {
+#topbar h1 {
   background-color: blue;
   color: white;
   border-bottom: 1px solid black;
@@ -12,18 +12,18 @@ body {
   /* padding: 5px; */
 }
 
-#listBar ol {
+#listbar ol {
   border-right: 1px solid black;
   width: 100px;
   margin: 0px;
   padding: 20px;
   padding-left: 30px;
 }
-#topBar h1 a {
+#topbar h1 a {
   text-decoration: none;
   color: white;
 }
-#listBar ol li a {
+#listbar ol li a {
   text-decoration: none;
 }
 
@@ -39,7 +39,10 @@ body {
   #main {
     display: block;
   }
-  #listBar ol {
+  #listbar ol {
     border-right: none;
   }
+}
+
+#funcbar {
 }
