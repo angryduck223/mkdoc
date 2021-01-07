@@ -60,13 +60,27 @@
     </script>
 </head>
 <body>
-    <h1><a href="index.php">web22</a></h1>
+    <div id="topbar">
+
+        <h1><a href="index.php">web22</a></h1>
+    </div>
+
+    <div id="main">
+    <div id="listbar">
+
     <ol>
         <?php printList(); ?>
     </ol>
+        </div>
+
+        <div id="content">
     <h2>
         <?php printTitle(); ?>  
     </h2>
     <?php printContent(); ?>
-</body>
+        </div>
+    </div>
+    <div id="funcbar">
+        <input type="button" value="dark" onclick="dayHandler(this)">
+    </div>
 </html>
