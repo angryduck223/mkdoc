@@ -50,6 +50,15 @@
             <?php printContent(); ?>
         </div>
     </div>
+    <a href="create.php">add</a>
+    <?php
+        if(isset($_GET['id'])){ ?>
+            <a href="update.php?id=<?=$_GET['id']?>">rev</a>
+            <form action="deleteProcess.php" method="post">
+                <input type="hidden" name="id" value="<?=$_GET['id']?>">
+                <input type="submit" value="remove">
+            </form>
+            <?php } ?>
     <div id="funcbar">
         <input type="button" value="dark" onclick="dayHandler(this)">
     </div>
