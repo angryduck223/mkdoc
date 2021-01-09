@@ -1,0 +1,6 @@
+A. 인터넷 대역폭 향상 (cmd ,gpedit)
+netsh interface tcp show global
+netsh interface tcp set global autotuninglevel=highlyrestricted
+-
+gpedit.msc
+컴퓨터 구성 > 관리 템플릿 > 네트워크 > Qos 패킷 스케줄러 > 예약 대역폭 제한 (사용) : 0% 

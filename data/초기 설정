@@ -1,0 +1,9 @@
+1. 작업표시줄 바로가기 모두 제거 후 도구모음 -> 새 도구 모음 (shell:quick launch) 생성 -> 텍스트 표시 X
+	- 코타나 , 작업보기단추, 검색(숨김) 등
+	- 모든 작업 표시줄 잠금
+
+2. 바탕화면 아이콘 표시 X
+3. 시작메뉴 모든 아이콘 제거
+	+ "win10_defaultAppRemover"폴더로 이동하여 PowerShell 실행 후 모든 앱 제거 
+	+ 계산기와 스토어 복구를 위해 " LTSC-Add-MicrosoftStore-2019"로 이동하여 "Add-Store.cmd"를 실행하여 스토어 설치 후 계산기 설치 진행
+		: 확인 방법 > win + R (실행) : calc > 계산기 실행

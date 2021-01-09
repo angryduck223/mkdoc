@@ -8,6 +8,10 @@ body {
 
 #lastdate p {
   color: red;
+  text-align: right;
+  margin-right: 10px;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
 }
 #topbar h1 {
   font-family: "Open Sans", sans-serif;
@@ -34,6 +38,7 @@ body {
   padding-left: 30px;
 }
 #topbar h1 a {
+  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -44,6 +49,7 @@ body {
 
 #content {
   padding-left: 20px;
+  padding-right: 50px;
 }
 #main {
   display: grid;

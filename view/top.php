@@ -6,11 +6,11 @@
 <head>
     <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
-    <title>mkdoc</title>
+    <title>Windows10 최적화 문서</title>
 </head>
 <body>
     <div id="topbar">
-        <h1><a href="index.php">Windows10 Optimization Document</a>
+        <h1><a href="index.php">Windows10 최적화 문서</a>
             <div class="time">00:00</div>
         </h1>
     
