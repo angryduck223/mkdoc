@@ -1,8 +1,12 @@
 function dayHandler(self) {
-  var target = document.querySelector("body");
+  var target = document.querySelector("body"),
+    topbar = document.querySelector("topbar"),
+    h1 = topbar.querySelector("h1");
+
   if (self.value === "켬") {
     target.style.backgroundColor = "black";
     target.style.color = "white";
+    h1.style.color = "white";
     self.value = "끔";
 
     var list = document.querySelectorAll("a");

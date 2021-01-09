@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
 body {
   margin: 0px;
   background-color: antiquewhite;
-  font-family: "Open Sans", sans-serif;
 }
 
 #lastdate p {
@@ -11,10 +8,9 @@ body {
   text-align: right;
   margin-right: 10px;
   font-size: 13px;
-  font-family: "Open Sans", sans-serif;
 }
+
 #topbar h1 {
-  font-family: "Open Sans", sans-serif;
   background-color: blue;
   color: white;
   border-bottom: 1px solid black;
@@ -37,8 +33,8 @@ body {
   padding: 20px;
   padding-left: 30px;
 }
+
 #topbar h1 a {
-  font-family: "Open Sans", sans-serif;
   text-decoration: none;
   color: white;
 }
@@ -50,7 +46,9 @@ body {
 #content {
   padding-left: 20px;
   padding-right: 50px;
+  border-left: 1px solid black;
 }
+
 #main {
   display: grid;
   grid-template-columns: 150px 1fr;
@@ -69,15 +67,28 @@ body {
   border-bottom: 1px solid black;
 }
 
-#funcLink a {
-  border: 3px solid royalblue;
-  background-color: skyblue;
-  color: darkgoldenrod;
-  text-decoration: none;
+.darkbutton {
+  margin: 5px;
+  border: 2px solid red;
+  /* background-color: blue; */
+  float: left;
+  width: 30px;
+  height: 30px;
+  text-align: center;
 }
 
-#funcButton {
-  border: 3px solid black;
-  width: 50px;
-  height: 100px;
+.funcSet {
+  margin: 5px;
+}
+
+.revLink {
+  color: red;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
 }

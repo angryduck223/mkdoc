@@ -1,6 +1,3 @@
-<?php
-    require_once('lib/print.php')
-?>
 <!DOCTYPE html>
 <html>
 <head>
