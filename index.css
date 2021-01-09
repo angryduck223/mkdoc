@@ -9,9 +9,15 @@ body {
   font-size: 15px;
   text-align: center;
   margin: 0px;
+  padding-left: 50px;
   /* padding: 5px; */
 }
 
+#topbar .time {
+  padding-right: 5px;
+  float: right;
+  text-align: right;
+}
 #listbar ol {
   border-right: 1px solid black;
   width: 100px;
@@ -23,6 +29,7 @@ body {
   text-decoration: none;
   color: white;
 }
+
 #listbar ol li a {
   text-decoration: none;
 }
@@ -45,4 +52,18 @@ body {
 }
 
 #funcbar {
+  border-bottom: 1px solid black;
+}
+
+#funcLink a {
+  border: 3px solid royalblue;
+  background-color: skyblue;
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+
+#funcButton {
+  border: 3px solid black;
+  width: 50px;
+  height: 100px;
 }
