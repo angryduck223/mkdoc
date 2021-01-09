@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <title>mkdoc</title>
+    <script>
+
+        function dayHandler(self){
+            var target = document.querySelector('body');
+            if (self.value === 'dark') {
+                target.style.backgroundColor = 'black';
+                target.style.color = 'white';
+                self.value = 'light';
+                
+                var list = document.querySelectorAll('a');
+                for (var i = 0; i < list.length; i++) {
+                    list[i].style.color = 'antiquewhite'
+                }
+            } else {
+                target.style.backgroundColor = 'antiquewhite';
+                target.style.color = 'black';
+                self.value = 'dark';
+                
+                var list = document.querySelectorAll('a');
+                for (var i = 0; i < list.length; i++) {
+                    list[i].style.color = 'black'
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="topbar">
+        <h1><a href="index.html">Win10 Optimization</a></h1>
+    </div>
+    <div id="main">
+        <div id="listbar">
+            <ol>
+                <li><a href="1.html">One</a></li>
+                <li><a href="2.html">Two</a></li>
+                <li><a href="3.html">Three</a></li>
+            </ol>
+        </div>
+        <div id="content">
+            <h2>Welcome</h2>
+            <p>
+                Welcome.
+                The current page is designed to share how Windows 10 works fast.
+            </p>
+        </div>
+    </div>
+    <div id="funcbar">
+        <input type="button" value="dark" onclick="dayHandler(this)">
+    </div>
+    </body>
+    </html> 

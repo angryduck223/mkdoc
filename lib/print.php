@@ -12,7 +12,7 @@
             echo "data/".$_GET['id'];
             echo htmlspecialchars(file_get_contents("data/".$_GET['id']));
         } else {
-            echo "Welcome! this is testpage";
+            echo "Welcome. The current page is designed to share how Windows 10 works fast.";
         }
 
     }

@@ -1,8 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 body {
   margin: 0px;
   background-color: antiquewhite;
+  font-family: "Open Sans", sans-serif;
+}
+
+#lastdate p {
+  color: red;
 }
 #topbar h1 {
+  font-family: "Open Sans", sans-serif;
   background-color: blue;
   color: white;
   border-bottom: 1px solid black;

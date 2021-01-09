@@ -1,4 +1,6 @@
 <div id="funcbar"></div>
-copyright 2001
+<div id="lastdate">
+    <p>Final modification date : 2021.01.09</p>    
+</div>
 </body>
 </html>
