@@ -1,6 +1,6 @@
 function dayHandler(self) {
   var target = document.querySelector("body"),
-    topbar = document.querySelector("topbar"),
+    topbar = document.querySelector("#topbar"),
     h1 = topbar.querySelector("h1");
 
   if (self.value === "켬") {
